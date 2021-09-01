@@ -1,0 +1,70 @@
+.Login {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        rgba(253, 183, 130, 0.5),
+        rgba(253, 183, 130, 0.5)
+      ),
+      url("https://images.unsplash.com/photo-1630407761652-e14307f15b43?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80");
+    background-position: center;
+  }
+.LoginTitle {
+    font-size: 60px;
+
+  }
+  
+.LoginForm {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    color:black;
+    font-size: 25px;
+  }
+  
+  .loginForm > label {
+    margin: 10px 0;
+  }
+  
+  .LoginInput {
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .LoginInput:focus {
+    outline: none;
+  }
+  
+  .LoginButton {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: rgb(34, 22, 22);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+  }
+  .LoginButton:hover{
+      color:white;
+      background-color: rgb(117, 96, 96);
+  }
+  .LoginRegisterButton {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: rgb(34, 22, 22);
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+  }
+   .LoginRegisterButton:hover{
+    background-color:  rgb(117, 96, 96);
+  }
+ 
